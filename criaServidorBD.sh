@@ -122,7 +122,7 @@ while [ true ]; do
 		sleep 3
 		echo "Obtendo backup da base de dados via Github.com..."
 		getBackupFile
-		echo -n "Aguarde..."
+		echo "Aguarde..."
 		sleep 15
 		echo "Restaurando backup no Servidor MySQL..."
 		restoreBackupFile
