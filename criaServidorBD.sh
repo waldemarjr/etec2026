@@ -28,7 +28,6 @@ function getBackupFile(){
 }
 
 function restoreBackupFile(){
-	echo .
 	$m -u $usuarioMySQL -h 127.0.0.1 -p$senhaMySQL < $tmpBackupFile
 }
 
